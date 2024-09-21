@@ -1,0 +1,28 @@
+body {
+  overflow-x: hidden;
+  max-width: 100vw;
+  background-image: url(../img/vektor/3.png);
+  background-size: cover; /* Mengatur agar gambar menutupi seluruh area */
+  background-repeat: no-repeat; /* Tidak diulang */
+  background-position: center; /* Posisikan gambar di tengah */
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+
+section#jumbotron{
+  height: 75vh;
+}
+
+.text-justify{
+  text-align: justify;
+}
+
+@font-face {
+  font-family: 'Soft Marshmallow';
+  src: url('../font/SoftMarshmallow.otf') format('opentype');
+}
+
+.text-softmarshmallow{
+  font-family: 'Soft Marshmallow', cursive;
+}
